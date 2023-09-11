@@ -1,0 +1,38 @@
+body {
+    height: 1705 px;
+}
+
+/* Centrage du texte dans les cellules */
+
+td {
+    text-align: center;
+}
+
+/* Centrage du tableau au centre de l'écran */
+
+.horaire {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+/* Couleur des cellules en jaune et en majuscules */    
+
+.horaire td {
+    background-color: #ffff00;
+    /* text-transform: uppercase; */
+}
+
+/* Couleur des céllules où l'on a pas cours en blanc */
+
+#white {
+    background-color: #fff;
+}
+
+/* Affichage du nom des profs en plus petit et en italique */
+
+.prof {
+    font-size: 0.5rem;
+    font-style: italic;
+}
