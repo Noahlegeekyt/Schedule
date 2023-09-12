@@ -1,14 +1,10 @@
-body {
-    height: 1705 px;
-}
-
 /* Centrage du texte dans les cellules */
 
 td {
     text-align: center;
 }
 
-/* Centrage du tableau au centre de l'écran */
+/* Centrage du tableau au centre de la page */
 
 .horaire {
     margin-left: auto;
@@ -17,14 +13,13 @@ td {
     border-collapse: collapse;
 }
 
-/* Couleur des cellules en jaune et en majuscules */    
-
+/* Couleur des cellules où il y a cours en jaune */
 .horaire td {
     background-color: #ffff00;
     /* text-transform: uppercase; */
 }
 
-/* Couleur des céllules où l'on a pas cours en blanc */
+/* Couleur des céllules où il n'y a pas de cours en blanc */
 
 #white {
     background-color: #fff;
